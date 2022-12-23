@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo {
+    width: 45%;
+    max-width: 500px;
+    height: 80%;
+    background-color: #ffff;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-top: 20px; */
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 8%);
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.container-1 {
+    width: 80%;
+    height: 25%;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content :space-between;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    /* background-color: red; */
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    /* background-color: blue; */
+}
+button{
+    margin:0 5px
+}
+.container-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: right;
+    align-items: baseline;
+    width: 80%;
+    height: 55%;
+    overflow-y: scroll;
+
+    /* border:  1px solid red; */
+    /* background-color: red;
+     */
+}
+
+.container-4::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+.container-4::-webkit-scrollbar-track {
+    background-color: #ececec;
+    border-radius: 20px;
+}
+.container-4::-webkit-scrollbar-thumb {
+    background-color:#00c2b6;
+    border-radius: 20px;
+  }
